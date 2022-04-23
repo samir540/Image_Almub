@@ -1,0 +1,17 @@
+.photoBox{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+    height: 175px;
+    cursor: pointer;
+ 
+}
+ .photoBox__title{
+      color:rgb(172, 169, 169);
+  }
+  .photos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:30px;
+    margin:50px auto;
+  }

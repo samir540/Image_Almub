@@ -1,0 +1,22 @@
+.modal{
+        position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0;
+    background: #020202;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    display: flex;
+    flex-direction: column;
+}
+.modal a{
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(241, 192, 192);
+    font-size: 35px;
+}
